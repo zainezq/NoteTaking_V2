@@ -7,6 +7,8 @@ import javafx.application.Application;
         import javafx.scene.Scene;
         import javafx.stage.Stage;
 
+import java.io.File;
+
 public class Main extends Application {
 
     @Override
@@ -17,7 +19,8 @@ public class Main extends Application {
 
             Scene scene = new Scene(root, 1200, 800);
 
-
+            //File style = new File("Z:\\Prod.Work\\Projects2023\\NoteTaking_V4\\src\\main\\resources\\darkmode.css");
+            //scene.getStylesheets().add(style.toURI().toURL().toExternalForm());
             stage.setTitle("Note Taking");
             stage.setScene(scene);
             stage.show();

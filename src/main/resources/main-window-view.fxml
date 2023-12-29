@@ -54,6 +54,9 @@
                                 <Insets right="20.0" />
                             </padding>
                         </ButtonBar>
+                        <CheckBox text="toggle" onAction="#handleDark">
+
+                        </CheckBox>
                     </bottom>
                 </BorderPane>
             </children>

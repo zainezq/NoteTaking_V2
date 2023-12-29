@@ -124,6 +124,9 @@ public class Controller {
     }
 
 
+    public void handleDark() {
+
+    }
 }
 
 
